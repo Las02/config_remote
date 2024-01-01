@@ -12,11 +12,10 @@ echo "---- ADDED -----" >> ~/.bashrc
 cat bashrcmain >> ~/.bashrc
 
 # make nvim appimage
-mkddir -p ~/bin
-cd ~/bin
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
-chmod u+x nvim.appimage
-cd ..
+mkdir ~/bin
+(cd ~/bin && curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage)
+chmod u+x ~/bin/nvim.appimage
+
 
 # add to path the nvim appimage
 echo "export PATH=$PATH:~/bin" >> ~/.bashrc
@@ -26,5 +25,6 @@ echo "export PATH=$PATH:~/bin" >> ~/.bashrc
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 
 # and add the custom config to nvim
-git clone https://github.com/Las02/nvimconfig ~/.config/nvim/lua
+git clone https://github.com/Las02/nvimconfig ~/.config/nvim/lua/custom
 
+echo "---- END-ADDED -----" >> ~/.bashrc
