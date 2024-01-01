@@ -14,7 +14,7 @@ cat bashrcmain >> ~/.bashrc
 # make nvim appimage
 mkdir ~/bin
 (cd ~/bin && curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage && mv nvim.appimage nvim)
-chmod u+x ~/bin/nvim.appimage
+chmod u+x ~/bin/nvim
 
 
 # add to path the nvim appimage
