@@ -8,7 +8,7 @@ mv .config ~/.config
 mv .tmux.conf ~/.tmux.conf
 
 # append to bascrc the preconfigured bashrc 
-echo "---- ADDED -----" >> ~/.bashrc
+echo "#---- ADDED -----" >> ~/.bashrc
 cat bashrcmain >> ~/.bashrc
 
 # make nvim appimage
@@ -27,4 +27,4 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 # and add the custom config to nvim
 git clone https://github.com/Las02/nvimconfig ~/.config/nvim/lua/custom
 
-echo "---- END-ADDED -----" >> ~/.bashrc
+echo "#---- END-ADDED -----" >> ~/.bashrc
