@@ -1,5 +1,5 @@
 
-# append to bascrc the preconfigured basrch
+# append to bascrc the preconfigured bashrc
 cat bashrcmain >> .bashrc
 
 # make nvim appimage
@@ -17,4 +17,6 @@ echo "export PATH=$PATH:~/bin" >> .bashrc
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 
 # and add the custom config to nvim
+git clone https://github.com/Las02/nvimconfig ~/.config/nvim/lua
+
 
