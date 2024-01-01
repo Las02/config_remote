@@ -1,8 +1,1 @@
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:~/bin:~/bin
 alias v="nvim"
-alias code="code --enable-features=UseOzonePlatform --ozone-platform=wayland"
-alias microsoft-edge="microsoft-edge --enable-features=UseOzonePlatform --ozone-platform=wayland"
-
-
-
-fish
