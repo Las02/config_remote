@@ -28,3 +28,9 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 git clone https://github.com/Las02/nvimconfig ~/.config/nvim/lua/custom
 
 echo "#---- END-ADDED -----" >> ~/.bashrc
+
+# npm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+nvm install 8.0.0
+
+
