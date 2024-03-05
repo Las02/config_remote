@@ -33,4 +33,11 @@ echo "#---- END-ADDED -----" >> ~/.bashrc
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 nvm install 8.0.0
 
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+git clone https://github.com/jeffreytse/zsh-vi-mode \
+  $ZSH_CUSTOM/plugins/zsh-vi-mode
+
+# TODO automate
+echo "ADD THE FOLLOING TO .zshrc: plugins+=(zsh-vi-mode)"
+
 
