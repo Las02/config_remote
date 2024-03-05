@@ -38,7 +38,6 @@ git clone https://github.com/jeffreytse/zsh-vi-mode \
   $ZSH_CUSTOM/plugins/zsh-vi-mode
 
 # TODO automate
-echo "ADD THE FOLLOING TO .zshrc: plugins+=(zsh-vi-mode) zsh-autosuggestions
-"
+echo "ADD THE FOLLOING TO .zshrc: plugins+=(zsh-vi-mode) zsh-autosuggestions alias (aliasname)="command"
 
 
