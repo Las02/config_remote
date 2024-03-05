@@ -36,8 +36,9 @@ nvm install 8.0.0
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 git clone https://github.com/jeffreytse/zsh-vi-mode \
   $ZSH_CUSTOM/plugins/zsh-vi-mode
+curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
 
 # TODO automate
-echo "ADD THE FOLLOING TO .zshrc: plugins+=(zsh-vi-mode) zsh-autosuggestions alias (aliasname)="command"
+echo "ADD THE FOLLOING TO .zshrc: plugins+=(zsh-vi-mode) zsh-autosuggestions alias (aliasname)="command eval "$(zoxide init zsh)""
 
 
