@@ -40,6 +40,6 @@ curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # TODO automate
 
-echo "ADD THE FOLLOING TO .zshrc: plugins+=(zsh-vi-mode) zsh-autosuggestions alias (aliasname)="command eval "$(zoxide init zsh)""
+echo "ADD THE FOLLOING TO .zshrc: plugins+=(zsh-vi-mode) zsh-autosuggestions alias (aliasname)="command eval "$(zoxide init zsh)"   alias v="nvim" "
 
 
