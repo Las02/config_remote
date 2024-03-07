@@ -37,8 +37,9 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 git clone https://github.com/jeffreytse/zsh-vi-mode \
   $ZSH_CUSTOM/plugins/zsh-vi-mode
 curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
-
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # TODO automate
+
 echo "ADD THE FOLLOING TO .zshrc: plugins+=(zsh-vi-mode) zsh-autosuggestions alias (aliasname)="command eval "$(zoxide init zsh)""
 
 
